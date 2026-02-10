@@ -1,0 +1,55 @@
+name: Frontend Task
+description: Frontend implementation task for Copilot Coding Agent
+title: "[FE] "
+labels: ["frontend"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Frontend Task
+        Please provide clear and complete information.
+        This issue may be handled by GitHub Copilot Coding Agent.
+
+  - type: input
+    id: design_doc
+    attributes:
+      label: Design Document
+      description: Path to the design document
+      placeholder: docs/design/xxx.design.md
+    validations:
+      required: true
+
+  - type: input
+    id: prompt
+    attributes:
+      label: Prompt File
+      description: Path to Copilot prompt
+      placeholder: .github/prompts/design/xxx.prompt.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: What should be implemented?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included / excluded?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Conditions to consider this task done
+    validations:
+      required: true
