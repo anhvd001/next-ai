@@ -52,7 +52,7 @@ export default function LoginPage() {
         <header className="flex flex-col gap-2 text-center">
           <h1 className="text-2xl font-semibold text-gray-900">Log in</h1>
           <p className="text-sm text-gray-600">
-            Enter your email and password to continue.
+            Enter your email and password to continue....
           </p>
         </header>
 
